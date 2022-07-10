@@ -1,0 +1,27 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4.17"
+gloo = "0.8.0"
+pollster = "0.2.5"
+vek = "0.15.8"
+wasm-logger = "0.2.0"
+wee_alloc = "0.4.5"
+yew = "0.19.3"
+yew-style-in-rs = "0.4.1"
+
+[dependencies.bytemuck]
+version="1.7.3"
+features = ["derive"]
+
+
+[dependencies.web-sys]
+version = "0.3.58"
+features = ["HtmlCanvasElement"]
+
+[dependencies.wgpu]
+version = "0.13.1"
+features = ["webgl"]
